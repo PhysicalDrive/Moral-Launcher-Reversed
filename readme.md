@@ -1,0 +1,2 @@
+nice
+https://cdn.discordapp.com/attachments/1172930784894664734/1241464031139856485/image.png?ex=664a4afa&is=6648f97a&hm=2cbf88ca2616d18b992be792ccd09c8db47c743a9d7993d629e9cffff5ceb2d0&
