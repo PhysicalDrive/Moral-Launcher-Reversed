@@ -1,0 +1,31 @@
+<Window x:Class="Moral.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Moral" xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml" Title="Moral" Height="440" Width="772" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+  <Control.Background>
+    <ImageBrush ImageSource="/Banner (1).png" Opacity="0.65" />
+  </Control.Background>
+  <Grid>
+    <controls:TextBox xmlns:controls="clr-namespace:Wpf.Ui.Controls;assembly=Wpf.Ui" controls:TextBox.Name="PathBox" FrameworkElement.Margin="35,356,497,0" TextBox.TextWrapping="Wrap" TextBox.Text="" FrameworkElement.VerticalAlignment="Top" controls:TextBox.PlaceholderText="Path" Control.FontSize="14" Control.Padding="10,6,10,7" TextChanged="PathBox_TextChanged" />
+    <controls:Button ContentControl.Content="" xmlns:controls="clr-namespace:Wpf.Ui.Controls;assembly=Wpf.Ui" controls:Button.Icon="Folder16" FrameworkElement.Margin="35,320,0,0" FrameworkElement.VerticalAlignment="Top" FrameworkElement.Height="26" FrameworkElement.Width="34" Control.FontSize="10" Click="Button_Click_1" />
+    <Button Content="X" Margin="728,0,0,0" VerticalAlignment="Top" Foreground="#FFFFFFFF" FontFamily="Segoe UI Semilight" Height="37" Width="44" FontSize="16" Click="Button_Click_4">
+      <Control.BorderBrush>
+        <ImageBrush />
+      </Control.BorderBrush>
+      <Control.Background>
+        <ImageBrush />
+      </Control.Background>
+    </Button>
+    <Button Content="-" Margin="684,0,0,0" VerticalAlignment="Top" Height="37" Width="44" FontSize="18" Click="Button_Click_2">
+      <Control.BorderBrush>
+        <ImageBrush />
+      </Control.BorderBrush>
+      <Control.Background>
+        <ImageBrush />
+      </Control.Background>
+    </Button>
+    <Button ContentControl.Content="Logout" FrameworkElement.Margin="684,390,0,0" FrameworkElement.VerticalAlignment="Top" Click="Button_Click_7" xmlns="clr-namespace:Wpf.Ui.Controls;assembly=Wpf.Ui" />
+    <Button p8:Button.Icon="ArrowDownload16" FrameworkElement.VerticalAlignment="Top" FrameworkElement.Margin="74,320,0,0" FrameworkElement.Height="26" FrameworkElement.Width="34" Click="Button_Click_8" xmlns:p8="clr-namespace:Wpf.Ui.Controls;assembly=Wpf.Ui" xmlns="clr-namespace:Wpf.Ui.Controls;assembly=Wpf.Ui" />
+    <TextBlock Name="statusLabel" HorizontalAlignment="Left" Margin="116,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FFFFFFFF" FontSize="8" />
+    <ProgressBar Name="progressBar" HorizontalAlignment="Left" Height="10" Margin="115,332,0,0" VerticalAlignment="Top" Width="100" />
+    <TextBlock Name="LaunchText" HorizontalAlignment="Center" Margin="0,365,0,0" TextWrapping="Wrap" Text="Launch" VerticalAlignment="Top" Foreground="#FFFFFFFF" />
+    <Button FrameworkElement.Margin="0,351,0,0" FrameworkElement.VerticalAlignment="Top" FrameworkElement.Width="176" FrameworkElement.Height="43" Control.Padding="0,9,75,6" FrameworkElement.HorizontalAlignment="Center" Click="Button_Click" xmlns="clr-namespace:Wpf.Ui.Controls;assembly=Wpf.Ui" />
+  </Grid>
+</Window>
